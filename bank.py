@@ -1,4 +1,5 @@
 class Account:
+    """This class simulates a bank account for a client"""
     def __init__(self, num_account, amount):
         self.__num_account = num_account
         self.__amount = amount
