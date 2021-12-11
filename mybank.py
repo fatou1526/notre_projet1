@@ -4,7 +4,7 @@ class BankAccount:
         self.client_id = client_id 
         self.__num_account = num_account
         self.__amount = amount
-
+        
     @property
     def num_account(self):
         return f"{self.__num_account}"
@@ -23,7 +23,7 @@ class BankAccount:
     def deposit(self):
         """This method deposit the specified amount into the client's account"""
         print("Please, give your account number")
-        
+
     def withdrawal(self):
         """This method withdraws the specified amount from client's account"""
         print("Please, fill the form with your account number, your ID and the amount to withdraw")
