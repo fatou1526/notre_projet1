@@ -1,7 +1,7 @@
 class BankAccount:
     """This class simulates a bank account for a client"""
     def __init__(self, client_id, num_account, amount):
-        self.client_id = client_id 
+        self.__client_id = client_id 
         self.__num_account = num_account
         self.__amount = amount
         
@@ -20,11 +20,11 @@ class BankAccount:
         number = self.num_account
         return number
         
-    def deposit(self):
+    def deposit(self, num_account, amount):
         """This method deposit the specified amount into the client's account"""
         print("Please, give your account number")
 
-    def withdrawal(self):
+    def withdrawal(self, num_account, amount):
         """This method withdraws the specified amount from client's account"""
         print("Please, fill the form with your account number, your ID and the amount to withdraw")
     
