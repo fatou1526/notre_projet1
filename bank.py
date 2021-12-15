@@ -1,7 +1,7 @@
 class BankAccount:
     """This class simulates a bank account for a client"""
     def __init__(self, client_id, num_account, amount):
-        self.client_id = client_id 
+        self.__client_id = client_id 
         self.__num_account = num_account
         self.__amount = amount
         
